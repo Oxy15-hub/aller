@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lancer raccourci</title>
+  <style>
+    body {
+      background-color: #f0f0f0; /* couleur de fond */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #000000; /* noir */
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #333333; /* gris foncé au survol */
+    }
+  </style>
+</head>
+<body>
+  <button onclick="location.href='shortcuts://run-shortcut?name=%C3%89chos'">
+    Lancer Échos
+  </button>
+</body>
+</html>
